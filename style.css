@@ -1,0 +1,144 @@
+@font-face {
+    font-family: Slumberer;
+    src: url(Fonts/idontknowagoodnameforafont.ttf);
+}
+
+@font-face {
+    font-family: Slumberer;
+    src: url(Fonts/idontknowagoodnameforafont_2.ttf);
+}
+    
+
+
+* {
+    box-sizing:content-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+li, a, button {
+    font-family: Slumberer;
+    font-weight: 500;
+    font-size: 17px;
+    margin-top: 3%;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+    display:flex;
+    justify-content:baseline;
+    padding: 20px 10%;
+    background-color: black;
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.nav__links li a:hover {
+    transition: all 0.3s ease 0s;
+
+}
+
+.nav__links li a {
+    color: #ffffff;
+
+}
+
+.nav__links li a:hover{
+    color: red;
+}
+
+.logo3 {
+    margin-right: auto;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    background-image: url(./Images/Background2.png);
+    background-repeat:repeat;
+    background-size: 1920px 1080px;
+    overflow:none;
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
+    padding: 0;
+    margin: 0;
+}
+
+picture {
+    margin-left: 25%;
+    margin-right: 25%;
+    top: 5%;
+    font-family: Slumberer;
+    position: absolute;
+    color: white;
+    bottom: 0%;
+}
+
+h3 {
+    font-family: Slumberer;
+    color: white;
+    margin-left: 10%;
+}
+
+
+
+
+.button:hover {
+    background-color: black;
+    color: rgb(255, 0, 0);
+}
+
+
+
+.button {
+    background-color: rgb(56, 56, 56);
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+    position:relative;
+    left:50%;
+    transform: translate(-50%) translateY(200%);
+    color: white;
+    padding: 16px 32px;
+    margin: 5px;
+    font-size: 17px;
+    background: transparent;
+    border: 3.0px solid white;
+
+}
+
+
+
+h2 {
+    font-family: Slumberer;
+    position:relative;
+    top:10%;
+    text-align: center;
+    color: lightgray;
+}
+/*iframe {
+*    text-align: center;
+*    position:relative;
+*    top: 20%;
+*    margi   
+*}*/
+
+.responsive {
+    min-width: 100px;
+    width: auto;
+    max-width: 50%;
+    height: auto;
+}
